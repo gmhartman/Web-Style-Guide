@@ -1,0 +1,47 @@
+
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+* {
+    font-family: $fontflow;
+    color: $bg-color;
+    box-sizing: border-box;
+  }
+  
+  p {
+    line-height: 1.45em;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  /* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+
+.headline-primary {
+    color: $headline-prim;
+    margin-left: 10px;
+  }
+  
+  .headline-secondary {
+    font-weight: $regfontwt;
+    color: $headline-sec;
+  }
+  
+  .link {
+    color: $link;
+    font-weight: 700;
+  }
+  
+  .blockquote {
+    font-size: 1.5em;
+    font-weight: $regfontwt;
+    font-style: italic;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 8px solid $border;
+    border-radius: $brdrradius;
+  }
